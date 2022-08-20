@@ -1,0 +1,9 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#imagen_de_perfil{
+    border-radius: 25%;
+    width: 150px;
+    height: 150px;
+}
