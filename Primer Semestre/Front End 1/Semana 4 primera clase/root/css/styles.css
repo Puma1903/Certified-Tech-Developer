@@ -1,0 +1,40 @@
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+#desc{
+    background-color:#1CD1B0;
+    font-size: 15px;
+}
+
+
+#heroes{
+    background-color:#00669F;
+    font-size: 40px;
+    box-shadow:0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.botones{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #00669F;
+    color: white;
+}
+
+#foo{
+    background-color: #00669F;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+
+
