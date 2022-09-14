@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header{
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    padding: 5% 12%;
+}
+
+.flex{
+    display: flex;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+nav{
+    width: 40%;
+}
+
+ul{
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+
+
+.botones-morados{
+    color: white;
+    background-color:#8B48BF;
+    border-radius: 20px;
+    padding: 18px;
+    border: none;
+    font-weight: 500;
+    font-size: 13.1806px;
+}
+
+.hamburguesa{
+    display: none;
+}
+
+#h1{
+    color: #232C50;
+    width: 433px;
+    height: 88px;
+}
+
+#p1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5584px;
+    align-items: center;
+    display: flex;
+    width: 337px;
+    height: 88px;
+}
+
+#boton-morado-body{
+    margin: 15px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main1{
+    display: flex;
+    justify-content: center;
+}
+
+.prueba1{
+    display: flex;
+    margin: 60px;
+    margin-top: 100px;
+    
+
+}
+
+
+
+h2{
+    font-family: 'Be Vietnam Pro', sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.2143px
+}
+
+.segunda-parte-body{
+    display: flex;
+    border: 1px solid black;
+}
+
+.spb{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    margin-right: 200px;
+
+}
+
+.lista-de-derecha{
+    display: flex;
+    border: 5px solid green;
+    flex-direction: column;
+}
+
+.organizar{
+    display: flex;
+}
+
+
+
+@media (max-width:480px){
+    .hamburguesa{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+
+    .boton-header{
+        display: none;
+    }
+}
