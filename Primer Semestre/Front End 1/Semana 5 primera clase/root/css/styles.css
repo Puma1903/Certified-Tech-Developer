@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: (32,32,32);
+
+}
+
+
+.header{
+    background-color: black;
+    color: white;
+    height: 15vh;
+    width: 100vw;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 250px;
+}
+
+nav{
+    width: 40% ;
+}
+
+ul{
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    margin: 0 20px;
+}
+
+fa-bars{
+    display: none;
+}
+
+@media (max-width: 650px) {
+    nav{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+    }
+}
+    .header{
+        
+    }
