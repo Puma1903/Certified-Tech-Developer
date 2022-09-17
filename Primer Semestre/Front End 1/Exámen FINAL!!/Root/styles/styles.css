@@ -10,10 +10,12 @@ header{
     height: 100px;
     align-items: center;
     padding: 5% 12%;
+    width: 100vw;
 }
 
 .flex{
     display: flex;
+    background-color: aquamarine;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
@@ -42,13 +44,14 @@ ul{
     display: none;
 }
 
-#h1{
+.h1{
     color: #232C50;
     width: 433px;
     height: 88px;
+    
 }
 
-#p1{
+.p1{
     font-style: normal;
     font-weight: 500;
     font-size: 16.5584px;
@@ -58,83 +61,317 @@ ul{
     height: 88px;
 }
 
-#boton-morado-body{
-    margin: 15px 0px 0px;
+.p2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5584px;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    height: 88px;
+    text-align: left;
+    margin-top: 10%;
+
 }
 
 
 
+.boton-morado-body{
+    margin-top: 5%;
+    
+}
 
+.grafico{
+    
+}
 
+.hdos{
+    color: #232C50;
+    height: 88px;
+    font-size: 36px;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main1{
+.flex-body{
     display: flex;
     justify-content: center;
-}
+    margin-top: 1.5%;
+    background-color: orange;
+    margin: auto;
 
-.prueba1{
-    display: flex;
-    margin: 60px;
-    margin-top: 100px;
     
-
 }
 
+.flex-body2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
 
+.contenedor-izquierda{
+    margin-left: 15%;
+}
 
-h2{
-    font-family: 'Be Vietnam Pro', sans-serif; 
-    font-style: normal;
+.contenedor-derecha{
+    margin-right: 15%;
+}
+.cajas{
+    height: 40%;
+}
+
+h5{
     font-weight: 700;
-    font-size: 39.2143px
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    width: 80%;
+    margin-left: 3%;
+    color: #323851;
+    margin-top:1.7%;
+
 }
 
-.segunda-parte-body{
+.lista-derecha{
     display: flex;
-    border: 1px solid black;
+    margin-left: 10%;
+}
+.lista-morada-numero{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    background: #8B48BF;
+    border-radius: 20px;
+    color: white;
 }
 
-.spb{
+.p-de-la-lista-derecha{
+    width: 80%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    color: #B3B2B7;
+    margin-left: 25%;
+    text-align: justify;
+    height: 10%;
+}
+
+.h2-body{
+    margin-bottom: 3%;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 39.2143px;
+}
+
+.container-article{
     display: flex;
-    border: 1px solid black;
+    justify-content: center;
+    background-color:#FAFAFA;
+}
+
+.tarjetas{
+    position: relative;
     flex-direction: column;
-    margin-right: 200px;
+    align-items: center;
+    width: 445px;
+    height: 219px ;
+    margin: 50px 50px 0px;
+    
+}
+
+.caras{
+    margin-left: auto;
+    margin-right: auto;
+    display:block ;
+    position: absolute;
+    bottom: 85%;
+    left: 40%;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
 
 }
 
-.lista-de-derecha{
+h6{
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16.0714px;
+    line-height: 156.6%;
+    margin-bottom: 7%;
+    margin-top: 13%;
+}
+
+.p-tarjetas{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 156.6%;
+    text-align: center;
+    color: #B9B9C1;
+}
+
+.boton-caras{
     display: flex;
-    border: 5px solid green;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+}
+
+footer{
+    display: flex;
+    width: 100vw;
     flex-direction: column;
 }
-
-.organizar{
+.container-footer1{
     display: flex;
+    background: #8B48BF;
+    width: 150%;
+    height: 250px;
+    margin-top: 10%;
+}
+
+
+
+
+
+.h2-footer1{
+    color: #FFFFFF;
+    margin-top: 25%;
+    margin-left: 15%;
+    width: 75%;
+}
+
+.boton-footer1{
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    width: 134px;
+    color:#8B48BF ;
+    margin-left: 400%;
+    margin-top: 90%;
+}
+
+.container-footer2{
+    display: flex;
+    background-color: #1E1E26;
+    width: 1440px;
+    height: 250px;
+    justify-content: space-between;
+    padding: 0% 5%;
+
+
+}
+
+.caja1-footer2{
+    align-items: center;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 5%;
+    width: 0 10% 0 50%
+}
+
+.a1{
+    margin-top: 35%;
+    margin-left: 10%;
+}
+
+
+.a2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25%;
+    margin-right: 50%;
+    width: 100%;
+}
+
+.caja2-footer2{
+    display: flex;
+    width: 40%;
+    margin-left: 5%;
+    align-items: center;
+    
+}
+
+
+.footer-lista-izquierda{
+    color: #FFFFFF;
+    width: 100%;
+    padding: 5%;
+    
+}
+
+.footer-lista-izquierda-1{
+    height: 175px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    text-align: center;
+    
+}
+
+.footer-lista-izquierda-1 li {
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+
+.container-footer-final{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3% 0;
+
+
+}
+.caja3-del-footer{
+    display: flex;
+    text-align: center;
+    height: 50%;
+}
+
+.form-footer{
+    padding: 10px;
+    gap: 10px;
+    width: 201px;
+    height: 44px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+input{
+    border: none;
+}
+
+.boton-footer{
+    padding: 10px;
+    gap: 10px;
+    border: none;
+    width: 63px;
+    height: 42px;
+    color: #FFFFFF;  
+    background: #8B48BF;
+    border-radius: 50px;
+    margin-left: 5%;
+}
+
+.p-final{
+    color: #8C8C94;
+    font-size: 10px;
 }
 
 
 
 @media (max-width:480px){
+
     .hamburguesa{
         display: block;
+        width: 150%;
+        background-color: greenyellow;
     }
     nav{
         display: none;
@@ -143,4 +380,9 @@ h2{
     .boton-header{
         display: none;
     }
+
+    body  header{
+        width: 100vw;
+    }
 }
+
